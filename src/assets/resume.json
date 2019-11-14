@@ -1,0 +1,86 @@
+{
+  "basics": {
+    "name": "Adrien Dauvergne",
+    "label": "Développeur Front-End",
+    "picture": "",
+    "birthDate": "1985-05-02",
+    "email": "adrien.dau@gmail.com",
+    "phone": "06.86.94.31.99",
+    "website": "http://adau.github.io",
+    "summary": "",
+    "location": {
+      "city": "Annecy"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "adriendauvergne",
+      "url": "https://fr.linkedin.com/in/adriendauvergne"
+    }, {
+      "network": "GitHub",
+      "username": "Adau",
+      "url": "https://github.com/Adau/"
+    }]
+  },
+  "work": [{
+    "company": "Acute Games / Boostr",
+    "position": "Développeur Front-End",
+    "website": "http://www.urban-rivals.com",
+    "startDate": "2010-04-01",
+    "endDate": "2016-04-01",
+    "summary": "Évolution et maintenance du site <a href=\"http://www.urban-rivals.com\">Urban-Rivals</a>.<br />Conception, développement et maintenance du site <a href=\"http://www.fantasy-rivals.com\">Fantasy-Rivals</a>."
+  }, {
+    "company": "Keyrus",
+    "position": "Développeur Web",
+    "website": "http://www.keyrus.fr",
+    "startDate": "2008-12-01",
+    "endDate": "2009-09-01",
+    "summary": "Création d'un espace vidéo thématisé sur le site <a href=\"http://www.publicsenat.fr\">Public Sénat</a>, développement d'un outil de statistiques, mise en place d'un jeu concours pour le salon du Bourget, création de templates et ajout de modules à un WMS. Maintenance de sites, référencement, étude de frameworks (Zend, Symfony)."
+  }, {
+    "company": "Advisto",
+    "position": "Développeur PHP",
+    "website": "http://fr.advisto.com",
+    "startDate": "2007-11-01",
+    "endDate": "2008-01-01",
+    "summary": "Mise en place d’un système de notation sur <a href=\"http://www.destockplus.com/\">Destockplus</a>, site d’annonces de destockage pour grossistes et liquidateurs.<br />Découverte du travail en entreprise, gestion d’un projet en équipe, acquisition et perfection des connaissances."
+  }],
+  "education": [{
+    "institution": "Université Paris Descartes (Paris XVI, 75)",
+    "studyType": "Licence Professionnelle S.I.L option Génie Logiciel et Système",
+    "startDate": "2008-01-01",
+    "endDate": "2009-01-01"
+  }, {
+    "institution": "Université Paris XIII, IUT de Villetaneuse (93)",
+    "studyType": "DUT informatique option Génie Informatique",
+    "startDate": "2004-01-01",
+    "endDate": "2007-01-01"
+  }, {
+    "institution": "Lycée Évariste Galois, Beaumont-sur-Oise (95)",
+    "studyType": "Baccalauréat Scientifique option Mathématiques",
+    "startDate": "2003-01-01",
+    "endDate": "2004-01-01"
+  }],
+  "skills": [{
+    "name": "HTML, CSS, Sass, BEM",
+    "level": "85"
+  }, {
+    "name": "Twitter Bootstrap, Responsive Design",
+    "level": "80"
+  }, {
+    "name": "JavaScript, jQuery, Backbone JS",
+    "level": "75"
+  }, {
+    "name": "PHP, MySQL",
+    "level": "60"
+  }, {
+    "name": "Python, Django",
+    "level": "50"
+  }, {
+    "name": "Git, GitHub",
+    "level": "70"
+  }],
+  "languages": [{
+    "language": "French"
+  }, {
+    "language": "English"
+  }]
+}
