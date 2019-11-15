@@ -10,7 +10,7 @@
         <article>
           <h4>{{ work.position }}</h4>
           <h5>{{ work.company }}</h5>
-          <h6>{{ work.startDate }} - {{ work.endDate }}</h6>
+          <h6>{{ work.startDate | moment('MMM YYYY') }} - {{ work.endDate | moment('MMM YYYY') }}</h6>
           <p v-html="work.summary" /> <!-- eslint-disable-line vue/no-v-html -->
         </article>
       </li>

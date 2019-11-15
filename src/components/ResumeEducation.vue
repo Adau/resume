@@ -10,7 +10,7 @@
         <article>
           <h4>{{ education.studyType }}</h4>
           <h5>{{ education.institution }}</h5>
-          <h6>{{ education.startDate }} - {{ education.endDate }}</h6>
+          <h6>{{ education.startDate | moment('YYYY') }} - {{ education.endDate | moment('YYYY') }}</h6>
           <p />
         </article>
       </li>
