@@ -10,7 +10,7 @@
 
     <ul>
       <li>{{ basics.location.city }}</li>
-      <li>{{ basics.phone }}</li>
+      <li>{{ basics.phone|formatPhone('.') }}</li>
       <li><a :href="`mailto:${basics.email}`">{{ basics.email }}</a></li>
     </ul>
   </header>
@@ -19,6 +19,11 @@
 <script>
 export default {
   name: 'ResumeBasics',
+  filters: {
+    formatPhone: (value, separator) => {
+      return value.match(/.{1,2}/g).join(separator)
+    }
+  },
   props: {
     basics: {
       type: Object,
