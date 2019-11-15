@@ -2,7 +2,7 @@
   "basics": {
     "name": "Adrien Dauvergne",
     "label": "Développeur Front-End",
-    "picture": "",
+    "picture": "picture.jpg",
     "birthDate": "1985-05-02",
     "email": "adrien.dau@gmail.com",
     "phone": "06.86.94.31.99",
@@ -60,22 +60,49 @@
     "endDate": "2004-01-01"
   }],
   "skills": [{
-    "name": "HTML, CSS, Sass, BEM",
+    "name": "",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "BEM"
+    ],
     "level": "85"
   }, {
-    "name": "Twitter Bootstrap, Responsive Design",
+    "name": "",
+    "keywords": [
+      "Twitter Bootstrap",
+      "Responsive Design"
+    ],
     "level": "80"
   }, {
-    "name": "JavaScript, jQuery, Backbone JS",
+    "name": "",
+    "keywords": [
+      "JavaScript",
+      "jQuery",
+      "Backbone JS"
+    ],
     "level": "75"
   }, {
-    "name": "PHP, MySQL",
+    "name": "",
+    "keywords": [
+      "PHP",
+      "MySQL"
+    ],
     "level": "60"
   }, {
-    "name": "Python, Django",
+    "name": "",
+    "keywords": [
+      "Python",
+      "Django"
+    ],
     "level": "50"
   }, {
-    "name": "Git, GitHub",
+    "name": "",
+    "keywords": [
+      "Git",
+      "GitHub"
+    ],
     "level": "70"
   }],
   "languages": [{
