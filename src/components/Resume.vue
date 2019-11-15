@@ -5,11 +5,11 @@
     />
 
     <ResumeWork
-      :workList="resume.work"
+      :work-list="resume.work"
     />
 
     <ResumeEducation
-      :educationList="resume.education"
+      :education-list="resume.education"
     />
 
     <ResumeSkills
@@ -28,16 +28,16 @@ import resume from '../assets/resume.json'
 
 export default {
   name: 'Resume',
-  data () {
-    return {
-      resume
-    }
-  },
   components: {
     ResumeBasics,
     ResumeWork,
     ResumeEducation,
     ResumeSkills
+  },
+  data () {
+    return {
+      resume
+    }
   }
 }
 </script>
