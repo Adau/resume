@@ -4,8 +4,8 @@
 
     <ul>
       <li
-        v-for="skill in skills"
-        :key="skill"
+        v-for="(skill, index) in skills"
+        :key="index"
       >
         <article>
           <h4>{{ skill.keywords.join(', ') }}</h4>

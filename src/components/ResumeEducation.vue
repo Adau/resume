@@ -4,8 +4,8 @@
 
     <ul>
       <li
-        v-for="education in educationList"
-        :key="education"
+        v-for="(education, index) in educationList"
+        :key="index"
       >
         <article>
           <h4>{{ education.studyType }}</h4>

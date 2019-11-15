@@ -4,8 +4,8 @@
 
     <ul>
       <li
-        v-for="work in workList"
-        :key="work"
+        v-for="(work, index) in workList"
+        :key="index"
       >
         <article>
           <h4>{{ work.position }}</h4>
