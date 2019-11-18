@@ -10,11 +10,11 @@
         <article>
           <h4>{{ skill.keywords.join(', ') }}</h4>
           <div>
-            <div>
-              <div
-                :style="`width: ${skill.level}%;`"
-              />
-            </div>
+            <progress
+              min="0"
+              max="100"
+              :value="skill.level"
+            />
           </div>
         </article>
       </li>
