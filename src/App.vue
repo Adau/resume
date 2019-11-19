@@ -16,6 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~reset-css/sass/reset';
+
 *,
 *::before,
 *::after {
