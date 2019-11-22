@@ -46,6 +46,7 @@ export default {
 .resume {
   width: 1020px;
   margin: auto;
-  background-color: #fff;
+  background-color: var(--white);
+  font-size: 15px;
 }
 </style>

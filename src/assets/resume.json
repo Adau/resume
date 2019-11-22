@@ -2,7 +2,7 @@
   "basics": {
     "name": "Adrien Dauvergne",
     "label": "Développeur Front-End",
-    "picture": "picture.jpg",
+    "picture": "/picture.jpg",
     "birthDate": "1985-05-02",
     "email": "adrien.dau@gmail.com",
     "phone": "0686943199",
