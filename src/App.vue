@@ -8,7 +8,7 @@
 import Resume from './components/Resume.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Resume
   }
@@ -43,5 +43,6 @@ a {
 body {
   background-color: #eee;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
 }
 </style>

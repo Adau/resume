@@ -9,6 +9,7 @@
     <h1 class="basics__name">
       {{ basics.name }}
     </h1>
+
     <h2 class="basics__label">
       {{ basics.label }}
     </h2>
@@ -74,7 +75,7 @@ export default {
   &__label {
     margin-bottom: .2em;
     font-family: 'Source Serif Pro', serif;
-    font-size: 1.3rem;
+    font-size: 1.22rem;
     font-weight: 400;
     color: var(--primary-color);
   }
