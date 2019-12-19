@@ -63,13 +63,13 @@ export default {
 
   &__body {
     display: grid;
-    grid-template-columns: subgrid;
     grid-column: resume;
+    grid-template-columns: subgrid;
 
     > li {
       display: grid;
-      grid-template-columns: subgrid;
       grid-column: resume;
+      grid-template-columns: subgrid;
 
       &::before {
         --bullet-width: 12px;
@@ -81,14 +81,14 @@ export default {
         width: var(--bullet-width);
         height: var(--bullet-width);
         margin-bottom: calc(var(--bullet-width) * -1);
-        background-color: var(--primary-color);
-        border-radius: 50%;
         transform: translateX(-50%);
+        border-radius: 50%;
+        background-color: var(--primary-color);
       }
 
       &:first-child::before {
-        background-color: var(--white);
         border: 2px solid var(--primary-color);
+        background-color: var(--white);
       }
     }
   }
@@ -96,9 +96,9 @@ export default {
 
 .work {
   display: grid;
-  grid-template-columns: subgrid;
-  grid-column: resume;
   grid-auto-flow: dense;
+  grid-column: resume;
+  grid-template-columns: subgrid;
 
   &__position {
     grid-column: right;
@@ -113,18 +113,18 @@ export default {
     grid-column: right;
     margin-bottom: .27rem;
     padding-left: 31px;
+    color: var(--gray);
     font-family: 'Source Serif Pro', serif;
     font-size: 1.08rem;
     font-weight: 400;
     letter-spacing: 1.5px;
-    color: var(--gray);
   }
 
   &__date {
     grid-column: left;
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: .5px;
+    text-transform: uppercase;
   }
 
   &__summary {

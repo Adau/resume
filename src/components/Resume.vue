@@ -49,16 +49,16 @@ export default {
 <style scoped lang="scss">
 .resume {
   display: grid;
-  grid-template-columns:
-    [resume-start left-start] 30%
-    [left-end line-start] 1px
-    [line-end right-start] 1fr
-    [right-end resume-end];
   grid-template-areas:
     "basics basics basics"
     "works works works"
     "education education education"
     "skills skills skills";
+  grid-template-columns:
+    [resume-start left-start] 30%
+    [left-end line-start] 1px
+    [line-end right-start] 1fr
+    [right-end resume-end];
   width: 1020px;
   margin: auto;
   background-color: var(--white);
@@ -66,23 +66,23 @@ export default {
 
   &::before {
     content: '';
-    grid-column: line;
-    grid-row-start: 2;
-    border-width: 11px;
-    border-style: solid;
-    border-color: var(--gray-lighter) transparent transparent transparent;
     position: relative;
     top: -1px;
     left: 50%;
+    grid-column: line;
+    grid-row-start: 2;
     transform: translateX(-50%);
+    border-width: 11px;
+    border-style: solid;
+    border-color: var(--gray-lighter) transparent transparent transparent;
     filter: drop-shadow(0 1px 0 var(--gray-light));
   }
 
   &::after {
     content: '';
-    background: var(--gray-light);
     grid-column: line;
     grid-row: 2 / -1;
+    background: var(--gray-light);
   }
 
   &__basics {

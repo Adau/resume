@@ -56,8 +56,8 @@ export default {
   &__body {
     display: grid;
     grid-column: right;
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 37.5px 1rem;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 2.81rem;
     padding-left: 31px;
   }
@@ -67,10 +67,10 @@ export default {
   &__name {
     margin-bottom: 7.5px;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: .75px;
+    text-transform: uppercase;
   }
 
   &__progress-bar {
@@ -78,9 +78,9 @@ export default {
     width: 200px;
     height: 6px;
     border: none;
+    border-radius: 2px;
     background-color: #eee;
     -moz-appearance: none;
-    border-radius: 2px;
 
     &::-moz-progress-bar {
       border-top-left-radius: 2px;

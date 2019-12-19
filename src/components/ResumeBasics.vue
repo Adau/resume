@@ -48,44 +48,44 @@ export default {
 <style scoped lang="scss">
 .basics {
   display: grid;
+  grid-column-gap: 25px;
   grid-template-columns: auto 1fr;
   grid-template-rows: repeat(3, auto);
-  grid-column-gap: 25px;
   align-items: center;
   padding: 50px 82px 42px 82px;
-  background: var(--gray-lighter);
   border-bottom: 1px solid var(--gray-light);
+  background: var(--gray-lighter);
 
   &__picture {
+    grid-row: 1 / -1;
     width: 125px;
     height: 125px;
-    grid-row: 1 / -1;
     border: 1px solid var(--black);
     border-radius: 50%;
   }
 
   &__name {
+    color: var(--gray-dark);
     font-family: 'Source Serif Pro', serif;
     font-size: 3.28rem;
-    letter-spacing: -.5px;
-    color: var(--gray-dark);
     font-weight: 700;
+    letter-spacing: -.5px;
   }
 
   &__label {
     margin-bottom: .2em;
+    color: var(--primary-color);
     font-family: 'Source Serif Pro', serif;
     font-size: 1.22rem;
     font-weight: 400;
-    color: var(--primary-color);
   }
 
   &__contact {
     display: flex;
-    font-size: .9em;
     color: var(--gray);
+    font-size: .9em;
 
-    > :not(:last-child):after {
+    > :not(:last-child)::after {
       content: '|';
       margin: 0 .5em;
       color: #ccc;
