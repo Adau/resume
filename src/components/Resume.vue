@@ -5,17 +5,17 @@
       class="resume__basics"
     />
 
-    <ResumeWork
+    <ResumeWorkSection
       :work-list="resume.work"
       class="resume__works"
     />
 
-    <ResumeEducation
+    <ResumeEducationSection
       :education-list="resume.education"
       class="resume__education"
     />
 
-    <ResumeSkills
+    <ResumeSkillsSection
       :skills="resume.skills"
       class="resume__skills"
     />
@@ -24,9 +24,9 @@
 
 <script>
 import ResumeBasics from './ResumeBasics.vue'
-import ResumeWork from './ResumeWork.vue'
-import ResumeEducation from './ResumeEducation.vue'
-import ResumeSkills from './ResumeSkills.vue'
+import ResumeWorkSection from './ResumeWorkSection.vue'
+import ResumeEducationSection from './ResumeEducationSection.vue'
+import ResumeSkillsSection from './ResumeSkillsSection.vue'
 
 import resume from '../assets/resume.json'
 
@@ -34,9 +34,9 @@ export default {
   name: 'Resume',
   components: {
     ResumeBasics,
-    ResumeWork,
-    ResumeEducation,
-    ResumeSkills
+    ResumeWorkSection,
+    ResumeEducationSection,
+    ResumeSkillsSection
   },
   data () {
     return {

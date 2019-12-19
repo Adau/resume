@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'ResumeSkills',
+  name: 'ResumeSkillsSection',
   props: {
     skills: {
       type: Array,
