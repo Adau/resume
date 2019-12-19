@@ -70,6 +70,26 @@ export default {
       display: grid;
       grid-template-columns: subgrid;
       grid-column: resume;
+
+      &::before {
+        --bullet-width: 12px;
+
+        content: '';
+        position: relative;
+        top: 4px;
+        grid-column: line;
+        width: var(--bullet-width);
+        height: var(--bullet-width);
+        margin-bottom: calc(var(--bullet-width) * -1);
+        background-color: var(--primary-color);
+        border-radius: 50%;
+        transform: translateX(-50%);
+      }
+
+      &:first-child::before {
+        background-color: var(--white);
+        border: 2px solid var(--primary-color);
+      }
     }
   }
 }
