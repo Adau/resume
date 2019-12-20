@@ -51,7 +51,7 @@ export default {
   display: grid;
   grid-template-areas:
     "basics basics basics"
-    "works works works"
+    "work work work"
     "education education education"
     "skills skills skills";
   grid-template-columns:
@@ -91,7 +91,7 @@ export default {
   }
 
   &__works {
-    grid-area: works;
+    grid-area: work;
   }
 
   &__education {
