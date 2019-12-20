@@ -60,8 +60,9 @@ export default {
     [line-end right-start] 1fr
     [right-end resume-end];
   width: 1020px;
-  margin: auto;
+  margin: 1cm auto;
   background-color: var(--white);
+  box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
   font-size: 15px;
 
   &::before {
