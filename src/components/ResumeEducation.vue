@@ -50,7 +50,7 @@ export default {
     grid-column: right;
     margin-bottom: .27rem;
     padding-left: 31px;
-    color: var(--gray);
+    color: var(--gray-darker);
     font-family: 'Source Serif Pro', serif;
     font-size: 1.08rem;
     font-weight: 400;

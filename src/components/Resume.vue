@@ -75,7 +75,7 @@ export default {
     transform: translateX(-50%);
     border-width: 11px;
     border-style: solid;
-    border-color: var(--gray-lighter) transparent transparent transparent;
+    border-color: var(--gray-lightest) transparent transparent transparent;
     filter: drop-shadow(0 1px 0 var(--gray-light));
   }
 

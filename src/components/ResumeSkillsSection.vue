@@ -79,7 +79,7 @@ export default {
     height: 6px;
     border: none;
     border-radius: 2px;
-    background-color: #eee;
+    background-color: var(--gray-lighter);
     -moz-appearance: none;
 
     &::-moz-progress-bar {

@@ -54,7 +54,7 @@ export default {
   align-items: center;
   padding: 50px 82px 42px 82px;
   border-bottom: 1px solid var(--gray-light);
-  background: var(--gray-lighter);
+  background: var(--gray-lightest);
 
   &__picture {
     grid-row: 1 / -1;
@@ -65,7 +65,7 @@ export default {
   }
 
   &__name {
-    color: var(--gray-dark);
+    color: var(--gray-darker);
     font-family: 'Source Serif Pro', serif;
     font-size: 3.28rem;
     font-weight: 700;
@@ -82,13 +82,13 @@ export default {
 
   &__contact {
     display: flex;
-    color: var(--gray);
+    color: var(--gray-darker);
     font-size: .9em;
 
     > :not(:last-child)::after {
       content: '|';
       margin: 0 .5em;
-      color: #ccc;
+      color: var(--gray);
     }
   }
 }

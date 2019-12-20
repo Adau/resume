@@ -22,10 +22,12 @@ export default {
 :root {
   --white: #fff;
   --blue: #64b1f2;
-  --gray-lighter: #f8f8f8;
+  --gray-lightest: #f8f8f8;
+  --gray-lighter: #eee;
   --gray-light: #e5e5e5;
-  --gray: #555;
-  --gray-dark: #333;
+  --gray: #ccc;
+  --gray-dark: #555;
+  --gray-darker: #333;
   --black: #000;
   --primary-color: var(--blue);
 }
@@ -41,7 +43,7 @@ a {
 }
 
 body {
-  background-color: #eee;
+  background-color: var(--gray-lighter);
   font-family: 'Montserrat', sans-serif;
   line-height: 1.2;
 }
