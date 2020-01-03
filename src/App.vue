@@ -46,5 +46,21 @@ body {
   background-color: var(--gray-lighter);
   font-family: 'Montserrat', sans-serif;
   line-height: 1.2;
+
+  @supports not (grid-template-columns: subgrid) {
+    &::after {
+      content: '⚠️ Sois gentil, utilise un navigateur moderne, comme Firefox, ou Firefox.';
+      display: flex;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(10px);
+    }
+  }
 }
+
 </style>
