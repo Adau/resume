@@ -1,5 +1,8 @@
 <template>
-  <div class="resume">
+  <div
+    v-if="resume"
+    class="resume"
+  >
     <ResumeBasics
       :basics="resume.basics"
       class="resume__basics"
@@ -28,8 +31,6 @@ import ResumeWorkSection from './ResumeWorkSection.vue'
 import ResumeEducationSection from './ResumeEducationSection.vue'
 import ResumeSkillsSection from './ResumeSkillsSection.vue'
 
-import resume from '../assets/resume.json'
-
 export default {
   name: 'Resume',
   components: {
@@ -40,8 +41,18 @@ export default {
   },
   data () {
     return {
-      resume
+      resume: null
     }
+  },
+  static: {
+    GIST_URL: 'https://gist.githubusercontent.com/Adau/4c66daf93b819c08c5c4e4776946a61b/raw/64ea203ad51ba84c7d9b4741c87097cfcb1ac599/resume.json'
+  },
+  created () {
+    fetch(this.$options.static.GIST_URL)
+      .then(response => response.json())
+      .then(data => {
+        this.resume = data
+      })
   }
 }
 </script>
