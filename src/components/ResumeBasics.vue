@@ -6,9 +6,11 @@
       alt="Photo"
     >
 
-    <h1 class="basics__name">
-      {{ basics.name }}
-    </h1>
+    <AnimatedText>
+      <h1 class="basics__name">
+        {{ basics.name }}
+      </h1>
+    </AnimatedText>
 
     <h2 class="basics__label">
       {{ basics.label }}
@@ -24,8 +26,13 @@
 </template>
 
 <script>
+import AnimatedText from './AnimatedText.vue'
+
 export default {
   name: 'ResumeBasics',
+  components: {
+    AnimatedText
+  },
   filters: {
     formatPhone: (value, separator) => {
       return value.match(/.{1,2}/g).join(separator)
