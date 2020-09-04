@@ -12,7 +12,7 @@
     "core-js": "^3.3.2",
     "reset-css": "^5.0.1",
     "vue": "^2.6.10",
-    "vue-moment": "^4.0.0"
+    "vue-moment": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
